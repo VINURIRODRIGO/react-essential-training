@@ -1,0 +1,8 @@
+1. Type the below command and Remove existing files and continue 
+`npm create vite@latest react-project -- --template react`
+2. Go to newly created file call package.json inside react-project.
+3. Remove exsisting react dependencies in that file [by removing dependencies{...},]
+4. Then go react-project folder location by typing `cd react-project`
+5. Type `npm install --save-exact react@rc react-dom@rc` then you can get the latest react dependencies in the package.json file.
+6. Then run `npm install` to run the rest of the packages
+7. Then according to the package.json file scripts run `npm run dev`
